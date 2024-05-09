@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(182, 252, 250);
+	font-size: 1.2rem;
+}
+a{
+	text-decoration: none;
+	font-size: 1.3rem;
+	background: rgb(100, 100, 255);
+	color: #fff;
+	padding: 6px 20px;
+	border-radius: 5px;
+}
+

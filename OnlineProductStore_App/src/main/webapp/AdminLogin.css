@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.warp{
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	background: rgb(182, 252, 250);
+}
+.sub-warp{
+	padding: 27px;
+	background-color: aquamarine;
+	border-radius:10px;
+	width:350px;
+	box-shadow: 0 0 7px gray;
+}
+.sub-warp form{
+	display:flex;
+	flex-direction: column;
+	gap:20px;
+}
+.sub-warp form input[type=submit]{
+	padding:7px 20px;
+	border-radius: 7px;
+	border: 1px solid gray;
+	color: purple;
+	font-size: 1.1rem;
+	font-weight: 600;
+	background: linear-gradient(to top, rgb(182, 252, 250),rgb(240, 234, 240));
+	margin-top: 10px;
+}
+.sub-warp form input[type=text],input[type=password]{
+	padding: 7px ;
+	border-radius: 7px;
+	border: 1px solid gray;
+	color: purple;
+	font-weight: 600;
+	font-size: 1rem;
+	outline: none;
+	background: rgba(180, 179, 179,0.7);
+}

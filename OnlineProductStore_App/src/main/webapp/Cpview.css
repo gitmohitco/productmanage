@@ -1,0 +1,103 @@
+@charset "UTF-8";
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+body{
+	background: rgb(182, 252, 250);
+	padding: 0 50px;
+}
+h2{
+	text-align:center;
+	text-decoration: underline;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+	border:1px solid aquamarine;
+	border-radius: 6px;
+	background: aquamarine;
+	box-shadow: 0 0 6px gray;
+}
+tr,td{
+	padding: 23px;
+	border-left: 1px solid gray;
+}
+#cart{
+	color: white;
+	text-decoration: none;
+	padding: 5px 8px;
+	background: rgb(100, 100, 255);
+	border-radius: 6px;
+	box-shadow: 0 0 7px gray;
+	float: left;
+}
+#logout{
+	color: white;
+	text-decoration: none;
+	padding: 5px 8px;
+	background: rgb(100, 100, 255);
+	border-radius: 6px;
+	box-shadow: 0 0 7px gray;
+	float: right;
+}
+#addcart{
+	text-decoration: none;
+	color: #fff;
+	background: rgb(100, 100, 255);
+	padding: 7px 20px;
+	border-radius: 7px;
+	float: right;
+}
+form{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.1rem;
+	gap: 7px;
+}
+form input[type=number],input[type=text]{
+	padding: 10px 5px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 6px;
+}
+.btn a{
+	text-decoration: none;
+	color: #fff;
+	background: rgb(100, 100, 255);
+	padding: 8px 10px;
+	border-radius: 6px;
+}
+form input[type=submit]{
+	text-decoration: none;
+	color: #fff;
+	background: rgb(100, 100, 255);
+	padding: 8px 10px;
+	border-radius: 6px;
+	border: none;
+}
+.anch{
+	text-decoration: none;	
+	margin: 30px 0;
+	padding: 7px 20px;
+	color: #fff;
+	background: rgb(100, 100, 255);
+	border-radius: 6px;
+}
+.warp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	color: rgb(100, 100, 255);
+	font-size: 1.2rem;
+	font-weight: 550;
+}
+
+
+
